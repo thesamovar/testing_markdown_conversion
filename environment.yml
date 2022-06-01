@@ -1,0 +1,7 @@
+name: markdownconvert
+channels:
+ - conda-forge
+dependencies:
+ - python=3
+ - markdown
+ - jinja2

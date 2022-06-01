@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}{{meta.title}}{% endblock %}
+
+{% block main %}
+
+<h1 class="title">{{meta.title}}</h1>
+<h4 class="authors pb-5">{{meta.authors}}</h4>
+
+{{ html | safe }}
+
+{% endblock %}
